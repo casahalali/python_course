@@ -156,9 +156,16 @@ if __name__ == "__main__":
     task = input("Which task do you want to run?\n\t1: Fibonacci\n\t2: Fibonacci 1337\n\t3: Baseline - Means\n\t4: Baseline - Classify\n\t5: Threshold\n")
     
     if task == "1":
+        fibonacci()
     elif task == "2":
+        fibonacci_two()
     elif task == "3":
+        means()
     elif task == "4":
+        
+        classify()
     elif task == "5":
+        read_data()
+        threshold()
     else:
         print("Wrong input")

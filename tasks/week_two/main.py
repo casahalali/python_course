@@ -49,7 +49,16 @@ def read_data():
 def fibonacci():
     # calculate the 12th fibonacci number
     # You can also try some other numbers, for the test 12 is relevant.
-    number = None
+    a = 0
+    b = 1
+    c = 1 
+    
+
+    for i in range(11):
+     number = a+b
+     a=+1
+     b=+1
+     print(number)
     return number
 
 def fibonacci_two():
